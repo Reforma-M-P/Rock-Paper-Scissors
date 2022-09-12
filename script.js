@@ -14,13 +14,6 @@ rock.addEventListener('click', () => {
     game()
     you = "rock";
 
-    if(computerChoice=="scissors"){
-        result.innerText="You win!"
-    } else if(computerChoice=="paper"){
-        result.innerText="Computer win!"
-    }   else{
-        result.innerText="Tie!"
-    };
 
 });
 
@@ -32,13 +25,6 @@ paper.addEventListener('click', () => {
     game()
     you = "paper";
 
-    if(computerChoice=="rock"){
-        result.innerText="You win!"
-    } else if(computerChoice=="scissors"){
-        result.innerText="Computer win!"
-    }   else{
-        result.innerText="Tie!"
-    };
  
 });
 
@@ -49,13 +35,7 @@ scissors.addEventListener('click', () => {
     document.querySelector('.scissors-right').style.display="block";
     game()
     you = "scissors";
-    if(computerChoice=="paper"){
-        result.innerText="You win!"
-    } else if(computerChoice=="rock"){
-        result.innerText="Computer win!"
-    }   else{
-        result.innerText="Tie!"
-    };
+
 
 });
 
