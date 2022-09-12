@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rock Paper Scissors Game!</h1> 
+
+    <div class="weapons">
+        <div class="your-weapon">
+            <img src="images/PaperR.png" alt="Paper" class="paper-right">
+            <img src="images/ScissorsR.png" alt="Scissors" class="scissors-right">
+            <img src="images/RockR.png" alt="Rock" class="rock-right">
+        </div>
+
+        <div class="versus">vs</div>
+
+        <div class="computer-weapon">
+            <img src="images/PaperL.png" alt="Paper" class="paper-left">
+            <img src="images/ScissorsL.png" alt="Scissors" class="scissors-left">
+            <img src="images/RockL.png" alt="Rock" class="rock-left">
+        </div>
+    </div>
+    
+    <p id="result">   </p>
+    <h3>Pick your weapon!</h3>
+    <div class="choices">
+        <button id="rock">Rock</button>
+        <button id="paper">Paper</button>
+        <button id="scissors">Scissors</button>
+    </div>
+    <div class="scoreboard">
+        <p id="your-score">Your score : <span class="score-number">1</span> </p> 
+        <p id="computer-score">Computer score : <span class="score-number">1</span> </p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
